@@ -1,0 +1,20 @@
+application:  searchparks
+version: alpha-001
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+
+- url: /files
+  static_dir: files
+
+- url: /.*
+  script: snb.app
+
+
+# [START libraries]
+libraries:
+- name: webapp2
+  version: 2.5.1
+# [END libraries]

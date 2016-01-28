@@ -1,0 +1,126 @@
+
+html, body{
+	margin: 0;
+	padding: 0;
+	font-family: "Handlee", sans-serif;    
+	letter-spacing: 0.5px;
+	font-size: 1em;
+}
+
+
+.hidden {
+	display: none;
+}
+
+
+.intro {
+	width: 100%;
+	margin: 0;
+	padding: 1em 0;
+	text-align: center;
+	background-color: #3EA99F;
+	box-shadow: 3px 3px 3px 3px #ccc;
+}
+
+.intro h1{
+	text-align: center;
+	color: white;
+    font-family: 'Lobster Two', cursive;
+	letter-spacing: 3px;
+	font-size: 2rem;
+}
+
+.input{
+	width: 100%;
+	margin: 25px auto 0px auto;
+	padding: 1.6em 0;
+	text-align: left;
+    font-family: sans-serif;
+}
+
+.form_wrap { 
+	width: 300px; 
+	outline: 1px solid #eee; 
+	margin: 0 auto; 
+	padding: 15px; 
+	font-size: 1rem;
+	color: #3EA99F; 
+	box-shadow: 3px 3px 10px 3px rgba(62, 169, 159, 0.39);
+}
+
+input[id="autocomplete"] {
+ width: 450px; 
+ height: 18px; 
+}
+
+
+#autocomplete{
+	width: 250px;
+}
+
+
+.container {
+	margin: 1em auto;
+	width: 600px;
+	text-align: center;
+}
+
+.results {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+}
+
+.weather{
+	margin-bottom: 25px;
+}
+
+.weather_tmplate {
+	margin: 0 auto;
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.weather_wrapper{
+	width: 30%;
+	display: inline-block;
+}
+
+.weather_wrapper img{
+	width: 80px;
+	display: block;
+	margin: -10px auto;
+}
+
+.weather_wrapper p{
+	display: block;
+	line-height: 60%;
+	text-shadow: 3px 3px 3px #bbb;
+	margin: 10px auto;
+}
+
+
+.error {
+	background-color: #F78181;
+	padding: 1em;
+}
+
+#map_canvas{
+	width: 600px;
+	height: 500px;
+	box-shadow: -7px -4px 10px 0px rgba(62, 169, 159, 0.39);
+}
+
+
+@media only screen and (max-width: 600px) {
+
+	.container{
+		width: 100%;
+	}
+
+	#map_canvas{
+		width: 100%;
+	}
+
+
+}
